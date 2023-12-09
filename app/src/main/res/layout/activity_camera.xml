@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/linebg"
+    tools:context=".Camera">
+
+    <Button
+        android:id="@+id/punchout"
+        android:layout_width="208dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="#a7bbcb"
+        android:fontFamily="sans-serif"
+        android:shadowColor="#8ca0b1"
+        android:text="Punch Out"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/punchin"
+        app:rippleColor="#8ca0b1"
+        app:strokeColor="#8ca0b1" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgcamera"
+        android:layout_width="215dp"
+        android:layout_height="166dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginBottom="142dp"
+        android:src="@drawable/person"
+        app:civ_border_color="#8ca0b1"
+        app:civ_border_width="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/punchin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/punchin"
+        android:layout_width="208dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="142dp"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="#a7bbcb"
+        android:fontFamily="@font/autour_one"
+        android:shadowColor="#8ca0b1"
+        android:text="Punch in"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgcamera"
+        app:rippleColor="#8ca0b1"
+        app:strokeColor="#8ca0b1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

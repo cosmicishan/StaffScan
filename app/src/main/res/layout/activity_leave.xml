@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:background="@drawable/linebg"
+    android:textColor="#a7bbcb"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+
+        android:id="@+id/toolbar3"
+        android:layout_width="409dp"
+        android:layout_height="60dp"
+        android:background="#161A33"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Leave"
+            android:textColor="#a7bbcb"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="157dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar3"
+        android:layout_marginTop="35dp"
+        android:background="#a7bbcb"
+        android:orientation="vertical"
+        android:padding="16dp"
+        >
+
+
+        <TextView
+
+            android:id="@+id/textViewStartTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Start Time:"
+            android:textColor="#161B33" />
+
+        <Button
+            android:id="@+id/btnPickStartTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewStartTime"
+            android:layout_marginTop="8dp"
+            android:text="Pick Start Time" />
+
+        <TextView
+            android:id="@+id/textViewEndTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnPickStartTime"
+            android:layout_marginTop="16dp"
+            android:textSize="20dp"
+            android:text="End Time:"
+            android:textColor="#161B33" />
+
+        <Button
+            android:id="@+id/btnPickEndTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewEndTime"
+
+            android:layout_marginTop="8dp"
+            android:text="Pick End Time" />
+
+        <EditText
+            android:id="@+id/editTextReason"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnPickEndTime"
+            android:layout_marginTop="16dp"
+            android:hint="Reason for Leave"
+            android:textColor="#161B33"
+            android:textColorHint="#161B33" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextReason"
+            android:layout_marginTop="16dp"
+            android:text="Submit" />
+    </LinearLayout>
+
+</RelativeLayout>

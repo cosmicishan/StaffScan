@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "861604499386",
+    "firebase_url": "https://hackathon2023-4c407-default-rtdb.firebaseio.com",
+    "project_id": "hackathon2023-4c407",
+    "storage_bucket": "hackathon2023-4c407.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861604499386:android:83ac4a92b4c73253011783",
+        "android_client_info": {
+          "package_name": "com.example.staffscan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq3mjc4zEGmR3wuDJuOzrhkuqW91LTQVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861604499386:android:ad549c329178901e011783",
+        "android_client_info": {
+          "package_name": "com.example.staffscandemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq3mjc4zEGmR3wuDJuOzrhkuqW91LTQVg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

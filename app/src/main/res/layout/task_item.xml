@@ -1,0 +1,24 @@
+<!-- res/layout/task_item.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#a7bbcb"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/taskInfoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textColor="#161A33"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/markAsCompleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Mark as Complete" />
+</LinearLayout>
